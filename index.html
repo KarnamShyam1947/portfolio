@@ -21,6 +21,14 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src=" https://cdn.jsdelivr.net/npm/sweetalert2@11.11.0/dist/sweetalert2.all.min.js "></script>
     <link href=" https://cdn.jsdelivr.net/npm/sweetalert2@11.11.0/dist/sweetalert2.min.css " rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/@coreui/icons@2.0.0-beta.3/css/all.min.css">
+    <style>
+        li.sp a:hover {
+            size: 200px !important;
+            color: #006769;
+            box-shadow: 0 0 10px green;
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -36,6 +44,7 @@
                     <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
                     <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
                     <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+                    <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
                     <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
                     <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
                 </ul>
@@ -51,15 +60,28 @@
                     <div class="text text-center">
                         <span class="subheading">Hey! I am</span>
                         <h1>Karnam Shyam</h1>
+                        <div class="row justify-content-center p-0">
+                            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                                <li class="ftco-animate sp"><a href="https://github.com/KarnamShyam1947"><span
+                                            class="fa-brands fa-github"></span></a></li>
+                                <li class="ftco-animate sp"><a href="https://www.linkedin.com/in/karnamshyam2004"><span
+                                            class="fa-brands fa-linkedin"></span></a></li>
+                                <li class="ftco-animate sp"><a href="https://www.hackerrank.com/profile/learner_shyam"><span
+                                            class="fa-brands fa-hackerrank"></span></a></li>
+                                <li class="ftco-animate sp"><a href="https://leetcode.com/u/karnamshyam1947/"><span
+                                            class="cib-leetcode"></span></a></li>
+                            </ul>
+                        </div>
                         <h2>I'm a
-                            <span class="txt-rotate" data-period="2000" data-rotate="[ &quot;Developer.&quot; ]"></span>
+                            <span class="txt-rotate" data-period="2000" data-rotate="[ &quot;Student.&quot; , &quot;Full Stack Developer.&quot; , &quot;AI/ML Enthusiast.&quot; ]"></span>
+                            <!-- <span class="txt-rotate" data-period="2000" data-rotate="[ &quot;Developer.&quot; , &quot;Developer2.&quot; ]"></span> -->
                         </h2>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
-        <div class="mouse">
+        
+        <div class="mouse">            
             <a href="#" class="mouse-icon">
                 <div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
             </a>
@@ -417,8 +439,7 @@
         </div>
     </section>
 
-    <!-- START : SERVICES SECTION -->
-    <!-- <section class="ftco-section" id="services-section">
+    <section class="ftco-section" id="services-section">
         <div class="container-fluid px-md-5">
             <div class="row justify-content-center py-5 mt-5">
                 <div class="col-md-12 heading-section text-center ftco-animate">
@@ -434,9 +455,8 @@
                             <i class="flaticon-analysis"></i>
                         </span>
                         <div class="desc">
-                            <h3 class="mb-5">Web Design</h3>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary
-                                regelialia.</p>
+                            <h3 class="mb-5">Frontend Design</h3>
+                            <p>I am fine working with React.js, HTML5, CSS3 and JavaScript</p>
                         </div>
                     </a>
                 </div>
@@ -446,9 +466,8 @@
                             <i class="flaticon-flasks"></i>
                         </span>
                         <div class="desc">
-                            <h3 class="mb-5">Phtography</h3>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary
-                                regelialia.</p>
+                            <h3 class="mb-5">Backend Development</h3>
+                            <p>I am good at Spring Boot(Java), Flask(Python) and DJango(Python)</p>
                         </div>
                     </a>
                 </div>
@@ -458,52 +477,14 @@
                             <i class="flaticon-ideas"></i>
                         </span>
                         <div class="desc">
-                            <h3 class="mb-5">Web Developer</h3>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary
-                                regelialia.</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 text-center d-flex ftco-animate">
-                    <a href="#" class="services-1 shadow">
-                        <span class="icon">
-                            <i class="flaticon-innovation"></i>
-                        </span>
-                        <div class="desc">
-                            <h3 class="mb-5">App Developing</h3>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary
-                                regelialia.</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 text-center d-flex ftco-animate">
-                    <a href="#" class="services-1 shadow">
-                        <span class="icon">
-                            <i class="flaticon-ux-design"></i>
-                        </span>
-                        <div class="desc">
-                            <h3 class="mb-5">Branding</h3>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary
-                                regelialia.</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 text-center d-flex ftco-animate">
-                    <a href="#" class="services-1 shadow">
-                        <span class="icon">
-                            <i class="flaticon-idea"></i>
-                        </span>
-                        <div class="desc">
-                            <h3 class="mb-5">Product Strategy</h3>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary
-                                regelialia.</p>
+                            <h3 class="mb-5">AI/ML</h3>
+                            <p>any Artificial Intelligence, Machine Learning, Deep Learning, Natural Language Processing and Computer Vision</p>
                         </div>
                     </a>
                 </div>
             </div>
         </div>
-    </section> -->
-    <!-- END : SERVICES SECTION -->
+    </section>
 
     <section class="ftco-section ftco-project" id="projects-section">
         <div class="container-fluid px-md-0">
@@ -689,6 +670,8 @@
                                         class="fa-brands fa-linkedin"></span></a></li>
                             <li class="ftco-animate"><a href="https://www.hackerrank.com/profile/learner_shyam"><span
                                         class="fa-brands fa-hackerrank"></span></a></li>
+                            <li class="ftco-animate"><a href="https://leetcode.com/u/karnamshyam1947/"><span
+                                        class="cib-leetcode"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -698,6 +681,7 @@
                         <ul class="list-unstyled">
                             <li><a href="#home-section"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
                             <li><a href="#about-section"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+                            <li><a href="#resume-section"><span class="icon-long-arrow-right mr-2"></span>Resume</a></li>
                             <li><a href="#project-section"><span class="icon-long-arrow-right mr-2"></span>Projects</a>
                             </li>
                             <li><a href="#concat-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a>
