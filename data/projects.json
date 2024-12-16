@@ -1,0 +1,428 @@
+[
+    {
+        "title" : "NLP Based Resume Parser",
+        "subTitle" : "AI/ML",
+        "liveDemo" : "https://github.com/KarnamShyam1947/resume-parser-nlp",
+        "cssClass" : [
+            "web-development",
+            "ai-ml"
+        ],
+        "photoUrl" : "assets/images/portfolio/g1.jpg",
+        "moreInfo" : {
+            "description" : "This project uses Natural Language Processing (NLP) techniques to parse resumes, enabling automated extraction and analysis of relevant data from resumes in a structured format. This tool is designed to streamline the hiring process by helping HR professionals quickly and accurately sift through a large number of resumes. The solution is highly efficient and can be integrated into any recruitment platform for faster resume screening and data organization.",
+            "skills" : [
+                "python",
+                "NLP",
+                "NER",
+                "Flask",
+                "Google Colab",
+                "Flask RestX"
+            ],
+            "photos" : [
+                {
+                    "imageUrl" : "assets/images/pr-0.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                },
+                {
+                    "imageUrl" : "assets/images/pr-1.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                }
+            ]
+        }
+    },
+    {
+        "title" : "Library Management System",
+        "subTitle" : "Web Development(Python FULL STACK)",
+        "liveDemo" : "https://github.com/KarnamShyam1947/lms",
+        "cssClass" : [
+            "web-development"
+        ],
+        "photoUrl" : "assets/images/portfolio/g2.png",
+        "moreInfo" : {
+            "description" : "The Library Management System is a full-stack web application built using Python, designed to manage the day-to-day operations of a library. It allows users to search for books, issue and return them, manage book inventories, and track user activity. This system provides a convenient and organized way to streamline library operations, ensuring easy access to books and a smooth administrative workflow.",
+            "skills" : [
+                "Python",
+                "html",
+                "css",
+                "Javascript",
+                "Jinja",
+                "Flask",
+                "MySQL Database"
+            ],
+            "photos" : [
+                {
+                    "imageUrl" : "assets/images/pr-0.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                },
+                {
+                    "imageUrl" : "assets/images/pr-1.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                }
+            ]
+        }
+    },
+    {
+        "title" : "AgriTech",
+        "subTitle" : "Machine and Deep Learning",
+        "liveDemo" : "https://github.com/KarnamShyam1947/AgriTech",
+        "cssClass" : [
+            "web-development",
+            "ai-ml"
+        ],
+        "photoUrl" : "assets/images/portfolio/g2.png",
+        "moreInfo" : {
+            "description" : "The AgriTech project focuses on using machine learning and deep learning techniques to solve problems in agriculture, such as crop disease prediction, weather forecasting, and fertilizer recommendation. By analyzing agricultural data, this project aims to optimize farming practices, improve crop production efficiency, and make agriculture more sustainable. It leverages AI to provide actionable insights that can help farmers make informed decisions for better crop management and increased productivity.",
+            "skills" : [
+                "Python",
+                "Flask",
+                "TensorFlow",
+                "Sckit Learn",
+                "HTML, CSS",
+                "Javascript",
+                "Jinja"
+            ],
+            "photos" : [
+                {
+                    "imageUrl" : "assets/images/pr-0.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                },
+                {
+                    "imageUrl" : "assets/images/pr-1.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                }
+            ]
+        }
+    },
+    {
+        "title" : "Bird Classification",
+        "subTitle" : "Deep Learning",
+        "liveDemo" : "https://github.com/KarnamShyam1947/Bird_Classification",
+        "cssClass" : [
+            "ai-ml"
+        ],
+        "photoUrl" : "assets/images/portfolio/g2.png",
+        "moreInfo" : {
+            "description" : "Wrap is a clean and elegant Multipurpose Landing Page Template. It will fit perfectly for Startup, Web App or any type of Web Services. It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. All variations are organized separately so you can use / customize the template very easily.",
+            "skills" : [
+                "Python",
+                "html",
+                "css",
+                "Javascript",
+                "Jinja",
+                "Flask",
+                "MySQL Database",
+                "TensorFlow"
+            ],
+            "photos" : [
+                {
+                    "imageUrl" : "assets/images/pr-0.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                },
+                {
+                    "imageUrl" : "assets/images/pr-1.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                }
+            ]
+        }
+    },
+    {
+        "title" : "Block Chain Based TO DO List",
+        "subTitle" : "Block Chain",
+        "liveDemo" : "https://karnamshyam1947.github.io/portfolio",
+        "cssClass" : [
+            "block-chain"
+        ],
+        "photoUrl" : "assets/images/portfolio/g2.png",
+        "moreInfo" : {
+            "description" : "This project leverages blockchain technology to create a decentralized TO DO list application. It ensures that the tasks and their statuses are securely recorded in a blockchain, offering users a transparent and immutable way to track their tasks. The blockchain-based approach prevents unauthorized alterations and ensures data integrity, making it ideal for users who need a highly secure, transparent, and reliable task management system. The application integrates simple task management with cutting-edge blockchain technology for enhanced privacy and security",
+            "skills" : [
+                "Block Chain",
+                "React",
+                "Meta Mask",
+                "Hard Hat",
+                "Ganache",
+                "Ethereum"
+            ],
+            "photos" : [
+                {
+                    "imageUrl" : "assets/images/pr-0.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                },
+                {
+                    "imageUrl" : "assets/images/pr-1.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                }
+            ]
+        }
+    },
+    {
+        "title" : "Ensemble Learning for Eye Disease",
+        "subTitle" : "Ensemble Learning",
+        "liveDemo" : "https://github.com/KarnamShyam1947/ensemble-learning-eye-disease",
+        "cssClass" : [
+            "ai-ml"
+        ],
+        "photoUrl" : "assets/images/portfolio/g2.png",
+        "moreInfo" : {
+            "description" : "This project utilizes ensemble learning techniques to predict and diagnose eye diseases from medical images. By combining multiple machine learning models, this approach improves the accuracy and reliability of predictions. Ensemble learning combines the strengths of different algorithms, allowing for better generalization and performance when dealing with medical datasets.",
+            "skills" : [
+                "Python",
+                "TensorFlow",
+                "Google Colab",
+                "Kaggle"
+            ],
+            "photos" : [
+                {
+                    "imageUrl" : "assets/images/pr-0.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                },
+                {
+                    "imageUrl" : "assets/images/pr-1.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                }
+            ]
+        }
+    },
+    {
+        "title" : "Federated Learning for Brain Tumor",
+        "subTitle" : "Federated Learning",
+        "liveDemo" : "https://github.com/KarnamShyam1947/fl_brain_tumor",
+        "cssClass" : [
+            "ai-ml"
+        ],
+        "photoUrl" : "assets/images/portfolio/g2.png",
+        "moreInfo" : {
+            "description" : "The Federated Learning for Brain Tumor project uses federated learning techniques to train machine learning models on medical data distributed across different devices or hospitals, without sharing sensitive data. This enables the creation of a more robust and privacy-preserving model for the detection of brain tumors from medical imaging. By aggregating insights from multiple data sources without compromising patient privacy, federated learning allows for more accurate predictions, making it a powerful tool for improving brain tumor diagnosis and treatment.",
+            "skills" : [
+                "Python",
+                "TensorFlow",
+                "Google Colab",
+                "Flower Framework",
+                "Kaggle"
+            ],
+            "photos" : [
+                {
+                    "imageUrl" : "assets/images/pr-0.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                },
+                {
+                    "imageUrl" : "assets/images/pr-1.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                }
+            ]
+        }
+    },
+    {
+        "title" : "Health Care Web App",
+        "subTitle" : "Java FULL STACK",
+        "liveDemo" : "https://github.com/KarnamShyam1947/health_care_webapp",
+        "cssClass" : [
+            "web-development"
+        ],
+        "photoUrl" : "assets/images/portfolio/g2.png",
+        "moreInfo" : {
+            "description" : "This Health Care Web App is designed as a comprehensive platform for managing healthcare services. Built using Java and integrated with front-end technologies like JSP, this full-stack application enables seamless user interactions for both patients and healthcare professionals. Features include patient management, appointment scheduling, medical records, and more, ensuring a user-friendly experience. The back-end is powered by Java with robust data management, ensuring secure and efficient handling of sensitive healthcare information",
+            "skills" : [
+                "Java",
+                "Maven",
+                "J2EE",
+                "JSP",
+                "MySQL DB",
+                "Hibernate (ORM)",
+                "HTML",
+                "CSS",
+                "Tomcat Server",
+                "Javascript"
+            ],
+            "photos" : [
+                {
+                    "imageUrl" : "assets/images/pr-0.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                },
+                {
+                    "imageUrl" : "assets/images/pr-1.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                }
+            ]
+        }
+    },
+    {
+        "title" : "MedServices Web Api",
+        "subTitle" : "Springboot (Java FULL STACK)",
+        "liveDemo" : "https://github.com/KarnamShyam1947/springboot-rest-api",
+        "cssClass" : [
+            "web-development"
+        ],
+        "photoUrl" : "assets/images/portfolio/g2.png",
+        "moreInfo" : {
+            "description" : "MedServices Web API is a Java-based backend service built with Spring Boot, designed for managing medical services. This API facilitates secure data handling for healthcare systems, including patient records, appointment details, and medicine information. The Spring Boot framework ensures a highly scalable and maintainable architecture, supporting various endpoints that can be integrated with different front-end applications or mobile platforms. It also implements security features like authentication and authorization to ensure that sensitive healthcare data is protected.",
+            "skills" : [
+                "Java",
+                "Spring Boot",
+                "JWT",
+                "Spring Security",
+                "MySQL DB",
+                "Spring Data JPA",
+                "Swagger (API Documentation)"
+            ],
+            "photos" : [
+                {
+                    "imageUrl" : "assets/images/pr-0.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                },
+                {
+                    "imageUrl" : "assets/images/pr-1.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                }
+            ]
+        }
+    },
+    {
+        "title" : "GitHub Action CI/CD",
+        "subTitle" : "DevOps",
+        "liveDemo" : "https://github.com/KarnamShyam1947/github-actions-sonarqube-demo",
+        "cssClass" : [
+            "devops"
+        ],
+        "photoUrl" : "assets/images/portfolio/g2.png",
+        "moreInfo" : {
+            "description" : "This project demonstrates a clean and efficient Continuous Integration/Continuous Deployment (CI/CD) pipeline using GitHub Actions. It allows developers to automate their software delivery process, enabling faster development cycles, improved code quality, and seamless deployments. GitHub Actions is highly customizable, allowing you to define workflows to automatically build, test, and deploy code across various environments. The integration with GitHub’s ecosystem ensures ease of use and scalability, perfect for modern web development ",
+            "skills" : [
+                "GitHub",
+                "Git CLI",
+                "GitHub Action",
+                "AWS",
+                "YAML",
+                "Docker",
+                "SonarQube"
+            ],
+            "photos" : [
+                {
+                    "imageUrl" : "assets/images/pr-0.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                },
+                {
+                    "imageUrl" : "assets/images/pr-1.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                }
+            ]
+        }
+    },
+    {
+        "title" : "Jenkins Based CI/CD",
+        "subTitle" : "DevSecOps",
+        "liveDemo" : "https://github.com/LearnerShyam1947/jenkins-cicd-demo",
+        "cssClass" : [
+            "devops"
+        ],
+        "photoUrl" : "assets/images/portfolio/g2.png",
+        "moreInfo" : {
+            "description" : "This project focuses on implementing a Jenkins-based CI/CD pipeline with a focus on security (DevSecOps). Jenkins, an open-source automation server, is widely used for continuous integration and delivery. With built-in support for pipeline as code, Jenkins allows the orchestration of complex workflows and integrates seamlessly with security tools to detect vulnerabilities at every stage of development. This pipeline automates the building, testing, and deployment processes while ensuring a secure environment by incorporating security checks into the CI/CD pipeline.",
+            "skills" : [
+                "Jenkins",
+                "Groovy",
+                "GitHub",
+                "AWS EC2, ECR, ECS",
+                "SonarQube",
+                "Trivy Container Scanner",
+                "OWASP Dependency Check"
+            ],
+            "photos" : [
+                {
+                    "imageUrl" : "assets/images/pr-0.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                },
+                {
+                    "imageUrl" : "assets/images/pr-1.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                }
+            ]
+        }
+    },
+    {
+        "title" : "Workers Safety Equipment Detection",
+        "subTitle" : "Object Detection",
+        "liveDemo" : "https://github.com/KarnamShyam1947/object-detection-yolo",
+        "cssClass" : [
+            "ai-ml"
+        ],
+        "photoUrl" : "assets/images/portfolio/g2.png",
+        "moreInfo" : {
+            "description" : "The Workers Safety Equipment Detection project uses AI and Machine Learning to ensure that workers are wearing the necessary safety equipment in hazardous environments. This system leverages computer vision techniques to analyze real-time video or images and detects whether workers are equipped with essential safety gear such as helmets, gloves, safety vests, and more. By using advanced object detection models, the solution enhances workplace safety, helps prevent accidents, and provides automated compliance checks. This technology can be integrated into construction sites, factories, or any other work environments where safety is critical.",
+            "skills" : [
+                "YOLO",
+                "ultralytics",
+                "Google Colab",
+                "CVAT"
+            ],
+            "photos" : [
+                {
+                    "imageUrl" : "assets/images/pr-0.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                },
+                {
+                    "imageUrl" : "assets/images/pr-1.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                }
+            ]
+        }
+    },
+    {
+        "title" : "facial recognition attendance system",
+        "subTitle" : "AI/ML",
+        "liveDemo" : "https://github.com/karnamshyam1947/facial-recognition-attendance-system",
+        "cssClass" : [
+            "ai-ml"
+        ],
+        "photoUrl" : "assets/images/portfolio/g2.png",
+        "moreInfo" : {
+            "description" : "The Facial Recognition Attendance System is an innovative solution that automates attendance tracking using facial recognition technology. This system leverages AI and machine learning algorithms to identify and verify individuals based on facial features, eliminating the need for traditional attendance methods such as manual sign-ins or RFID cards. With real-time processing, the system enhances accuracy, reduces fraud, and improves efficiency in attendance management. It can be integrated into schools, workplaces, and events to streamline the attendance process while maintaining security and privacy.",
+            "skills" : [
+                "Python",
+                "Flask",
+                "MySQL Database",
+                "HTML, CSS"
+            ],
+            "photos" : [
+                {
+                    "imageUrl" : "assets/images/pr-0.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                },
+                {
+                    "imageUrl" : "assets/images/pr-1.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                }
+            ]
+        }
+    },
+    {
+        "title" : "Dynamic Portfolio",
+        "subTitle" : "MERN FULL STACK",
+        "liveDemo" : "https://github.com/karnamshyam1947/portfolilo",
+        "cssClass" : [
+            "web-development"
+        ],
+        "photoUrl" : "assets/images/portfolio/g2.png",
+        "moreInfo" : {
+            "description" : "The Facial Recognition Attendance System is an innovative solution that automates attendance tracking using facial recognition technology. This system leverages AI and machine learning algorithms to identify and verify individuals based on facial features, eliminating the need for traditional attendance methods such as manual sign-ins or RFID cards. With real-time processing, the system enhances accuracy, reduces fraud, and improves efficiency in attendance management. It can be integrated into schools, workplaces, and events to streamline the attendance process while maintaining security and privacy.",
+            "skills" : [
+                "HTML, CSS",
+                "Javascript",
+                "Mongo DB",
+                "Express",
+                "ReactJS",
+                "NodeJS"
+            ],
+            "photos" : [
+                {
+                    "imageUrl" : "assets/images/pr-0.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                },
+                {
+                    "imageUrl" : "assets/images/pr-1.jif",
+                    "imageSubTitle" : "All variations are organized separately so you can use /  customize the template very easily."
+                }
+            ]
+        }
+    }
+]

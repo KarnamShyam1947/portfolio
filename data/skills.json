@@ -1,0 +1,54 @@
+{
+    "Languages" : [
+        "Java",
+        "Python",
+        "C/C++",
+        "HTML5",
+        "CSS3",
+        "Javascript",
+        "PHP",
+        "XML",
+        "Yaml",
+        "SQL(MySQL, Oracle, SQLite)",
+        "NoSQL(MongoDB)"
+    ],
+    "frameworks" : [
+        "SpringBoot",
+        "Flask",
+        "DJango",
+        "Angular16",
+        "AngularJS",
+        "React",
+        "Express",
+        "Bootstrap",
+        "Hibernate"
+    ],
+    "Tools" : [
+        "Git & Github",
+        "Maven",
+        "Postman",
+        "Firebase",
+        "GraphQL",
+        "gRPC",
+        "Docker",
+        "Prometheus",
+        "Grafana",
+        "Github Action",
+        "AWS",
+        "Redis",
+        "Apache Kafka"
+    ],
+    "Others" : [
+        "RestAPI",
+        "OpenCV",
+        "Tensorflow",
+        "Swagger (API Documentation)",
+        "Sklearn",
+        "Numpy & pandas",
+        "Data Caching",
+        "Linux",
+        "Keycloak",
+        "JWT(Json Web Token)",
+        "Design Patterns"
+    ]
+}

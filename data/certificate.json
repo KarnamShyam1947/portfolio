@@ -1,0 +1,40 @@
+[
+    {
+        "title" : "AWS Cloud Technical Essentials",
+        "issuer" : "AWS",
+        "duration" : "July 2024",
+        "skills" : [
+            "AWS",
+            "Some Services of AWS"
+        ],
+        "certificateLink" : "https://courses.edx.org/certificates/3d264c0011c04949810bec231c214c16"
+    },
+    {
+        "title" : "Introduction to Hyperledger Blockchain Technologies",
+        "issuer" : "LinuxFoundationX",
+        "duration" : "July 2024",
+        "skills" : [
+            "Block Chasin",
+            "Hyper Ledger"
+        ],
+        "certificateLink" : "https://courses.edx.org/certificates/322bec99b7724d40bcf37d42bcfc5bab"
+    },
+    {
+        "title" : "Introduction to Linux",
+        "issuer" : "LinuxFoundationX",
+        "duration" : "June 2024",
+        "skills" : [
+            "Linux"
+        ],
+        "certificateLink" : "https://courses.edx.org/certificates/52319009035b4ea496d20c99ca10c9cd"
+    },
+    {
+        "title" : "Introduction to Kubernetes",
+        "issuer" : "LinuxFoundationX",
+        "duration" : "June 2024",
+        "skills" : [
+            "Kubernetes"
+        ],
+        "certificateLink" : "https://courses.edx.org/certificates/ea314ab102ed45278d9e61638a0fce3e"
+    }
+]

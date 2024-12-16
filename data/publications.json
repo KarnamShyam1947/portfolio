@@ -1,0 +1,16 @@
+[
+    {
+        "title" : "Transfer Learning for Bird Species Identification",
+        "duration" : "Jan 2023 - June 2023",
+        "description" : "Developed an innovative IoT-based solution leveraging deep learning techniques to monitor Bird Species in real-time.",
+        "githubLink" : "https://github.com/sanjay7178/iot-esp32-cam",
+        "paperLink" : "https://ieeexplore.ieee.org/abstract/document/10142979"
+    },
+    {
+        "title" : "A Federated Learning approach for privacy preserving technique for Brain Tumor Classification",
+        "duration" : "Mar 2004 - present",
+        "description" : "Implemented Federated Learning using Flower Framework to enhance the privacy in medical image classification",
+        "githubLink" : "https://github.com/KarnamShyam1947/fl_brain_tumor",
+        "paperLink" : ""
+    }   
+]

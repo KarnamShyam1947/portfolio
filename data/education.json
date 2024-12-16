@@ -1,0 +1,14 @@
+[
+    {
+        "course" : "Integrated MTech in Computer Science",
+        "institute" : "VIT-AP University",
+        "duration" : "2019-present",
+        "description" : "My Current CGPA : 9.03"
+    },
+    {
+        "course" : "Intermediate MPC",
+        "institute" : "DR Junior Collage",
+        "duration" : "2019-2021",
+        "description" : "I got 961 marks out of 1000."
+    }
+]
