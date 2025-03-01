@@ -8,6 +8,7 @@
             "ai-ml"
         ],
         "photoUrl" : "assets/images/portfolio/g1.jpg",
+        "githubLink" : "assets/images/portfolio/g1.jpg",
         "moreInfo" : {
             "description" : "This project uses Natural Language Processing (NLP) techniques to parse resumes, enabling automated extraction and analysis of relevant data from resumes in a structured format. This tool is designed to streamline the hiring process by helping HR professionals quickly and accurately sift through a large number of resumes. The solution is highly efficient and can be integrated into any recruitment platform for faster resume screening and data organization.",
             "skills" : [

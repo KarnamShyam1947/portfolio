@@ -8,9 +8,9 @@
     },
     {
         "title" : "A Federated Learning approach for privacy preserving technique for Brain Tumor Classification",
-        "duration" : "Mar 2004 - present",
+        "duration" : "Mar 2024 - Jan 2025",
         "description" : "Implemented Federated Learning using Flower Framework to enhance the privacy in medical image classification",
         "githubLink" : "https://github.com/KarnamShyam1947/fl_brain_tumor",
-        "paperLink" : ""
+        "paperLink" : "https://link.springer.com/chapter/10.1007/978-981-97-8336-6_20"
     }   
 ]

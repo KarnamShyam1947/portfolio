@@ -36,6 +36,9 @@
     <link rel="stylesheet" href="assets/plugins/css/owl.css">
     <!-- Fancybox-->
     <link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/sweetalert2@11.11.0/dist/sweetalert2.all.min.js "></script>
+    <link href=" https://cdn.jsdelivr.net/npm/sweetalert2@11.11.0/dist/sweetalert2.min.css " rel="stylesheet">
 
     <!-- Custom CSS-->
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -203,7 +206,7 @@
 
     <section class="mh-service">
         <div class="container">
-            <div class="row section-separator">
+            <div class="row section-separator gap-3">
                 <div class="col-sm-12 text-center section-title wow fadeInUp" data-wow-duration="0.8s"
                     data-wow-delay="0.2s">
                     <h2>What I do</h2>
@@ -214,9 +217,7 @@
                         <i class="fa fa-hexagon-nodes purple-color"></i>
                         <h3>AI/ML</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                            magna aliquam erat volutpat.
+                            I have a strong background in Artificial Intelligence and Machine Learning, specializing in privacy-preserving AI, computer vision, and federated learning. My work includes research and practical applications in healthcare, where I have developed AI models for medical image classification.
                         </p>
                     </div>
                 </div>
@@ -224,11 +225,10 @@
                     <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s"
                         data-wow-delay="0.5s">
                         <i class="fa fa-code iron-color"></i>
-                        <h3>Web Development</h3>
+                        <h3>Block Chain</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                            magna aliquam erat volutpat.
+                            With expertise in Ethereum-based blockchain applications, I focus on smart contracts, DeFi, and secure data storage solutions. My projects involve MERN-based decentralized applications (dApps) and integrating blockchain with healthcare and fintech use cases.
+                            
                         </p>
                     </div>
                 </div>
@@ -236,11 +236,9 @@
                     <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s"
                         data-wow-delay="0.7s">
                         <i class="fa fa-object-ungroup sky-color"></i>
-                        <h3>DevOps / AWS</h3>
+                        <h3>DevOps on AWS</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                            magna aliquam erat volutpat.
+                            I specialize in cloud infrastructure, CI/CD pipelines, and scalable deployments using AWS, Docker, and Kubernetes. My experience includes deploying microservices architectures and optimizing cloud-based systems for high availability and security.
                         </p>
                     </div>
                 </div>
@@ -248,18 +246,16 @@
                     <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s"
                         data-wow-delay="0.7s">
                         <i class="fa fa-bullseye purple-color"></i>
-                        <h3>Block Chain</h3>
+                        <h3>Web Development</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                            magna aliquam erat volutpat.
+                            I have extensive experience in full-stack web development, focusing on scalable, high-performance applications. My expertise includes MERN stack, RESTful APIs, GraphQL, and real-time applications.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+    
     <section class="mh-skills" id="mh-skills">
         <div class="home-v-img1 p-5">
             <div class="container">
@@ -417,7 +413,7 @@
     </section>
 
     
-    <footer class="mh-footer mh-footer-3">
+    <footer id="mh-contact" class="mh-footer mh-footer-3">
         <div class="container-fluid">
             <div class="row section-separator">
                 <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
@@ -445,11 +441,12 @@
                                     <div class="mh-address-footer-item media dark-bg shadow-1 wow fadeInUp"
                                         data-wow-duration="0.8s" data-wow-delay="0.4s">
                                         <div class="each-icon">
-                                            <i class="fa fa-envelope-o"></i>
+                                            <i class="fa fa-envelope"></i>
                                         </div>
                                         <div class="each-info media-body">
                                             <h4>Email</h4>
                                             <a href="mailto:karnam.shyam2004@email.com">karnam.shyam2004@email.com</a><br>
+                                            <!-- <a href="mailto:yourmail@email.com">yourmail@email.com</a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -462,38 +459,44 @@
                                         <div class="each-info media-body">
                                             <h4>Phone</h4>
                                             <a href="tel:9346872174">9346872174</a><br>
+                                            <!-- <a href="callto:(880)-8976-987">(880)-8976-987</a> -->
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-                                <form class="single-form quate-form wow fadeInUp">
+                                <form id="form" class="single-form quate-form wow fadeInUp">
                                     <div id="msgSubmit" class="h3 text-center hidden"></div>
                                     <div class="row">
                                         <div class="col-sm-12">
-                                            <input name="name" class=" form-control" id="name" type="text"
-                                                placeholder="First Name" required>
+                                            <input name="name" class=" form-control" id="from_name" type="text"
+                                                placeholder="Enter Your Name" required>
                                         </div>
 
                                         <div class="col-sm-12">
-                                            <input name="name" class=" form-control" id="L_name"
-                                                type="text" placeholder="Last Name" required>
+                                            <input name="subject" class=" form-control" id="subject"
+                                                type="text" placeholder="Enter Your Subject" required>
                                         </div>
 
                                         <div class="col-sm-12">
-                                            <input name="name" class=" form-control" id="email"
-                                                type="email" placeholder="Your Email" required>
+                                            <input name="email" class=" form-control" id="from_email"
+                                                type="email" placeholder="Enter Your Email" required>
                                         </div>
 
                                         <div class="col-sm-12">
                                             <textarea style="height: 150px;" class="form-control" id="message" rows="10"
-                                                placeholder="Your Message" required></textarea>
+                                                placeholder="Enter Your Message" required></textarea>
                                         </div>
 
                                         <!-- Subject Button -->
                                         <div class="btn-form col-sm-12">
-                                            <button type="submit" class="btn btn-fill btn-block" id="form-submit">Send
+                                            <button type="submit" class="btn btn-fill btn-block" id="submitBtn">Send
                                                 Message</button>
+                                        </div>
+                                        <div class="btn-form col-sm-12">
+                                            <button type="submit" class="btn btn-fill btn-block" id="loadingBtn">Sending
+                                                Message...........</button>
                                         </div>
                                     </div>
                                 </form>
@@ -688,6 +691,63 @@
             css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
             document.body.appendChild(css);
         };
+    </script>
+
+    <script type="text/javascript">
+        let form = document.getElementById("form");
+        let submitBtn = document.getElementById("submitBtn");
+        let loadingBtn = document.getElementById("loadingBtn");
+        loadingBtn.style.display = "none";
+
+        form.onsubmit = (e) => {
+            e.preventDefault();
+            console.log("called");
+            sendMail();
+        }
+
+        (function () {
+            emailjs.init({
+                publicKey: "fS2LT7fGZxzuyZUnO",
+            });
+        })();
+
+        function sendMail() {
+            submitBtn.style.display = "none";
+            loadingBtn.style.display = "block";
+
+            var templateParams = {
+                subject: document.getElementById("subject").value,
+                from_name: document.getElementById("from_name").value,
+                message: document.getElementById("message").value,
+                from_email: document.getElementById("from_email").value
+            };
+
+            emailjs.send('service_vkx5ii8', 'template_be7rhys', templateParams).then(
+                (response) => {
+                    submitBtn.style.display = "block";
+                    loadingBtn.style.display = "none";
+                    console.log('SUCCESS!', response.status, response.text);
+                    form.reset();
+                    Swal.fire({
+                        title: "Success",
+                        text: "Mail send to karnam shyam successfully",
+                        icon: "success"
+                    });
+                },
+                (error) => {
+                    submitBtn.style.display = "block";
+                    loadingBtn.style.display = "none";
+                    console.log('FAILED...', error);
+                    form.reset();
+                    Swal.fire({
+                        title: "Failed",
+                        text: "Failed to send the mail. Please try  again",
+                        icon: "error"
+                    });
+                },
+            );
+        }
+
     </script>
 </body>
 

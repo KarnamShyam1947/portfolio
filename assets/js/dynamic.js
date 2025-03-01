@@ -215,6 +215,14 @@ const createPortfolioModal = (data, id) => {
     const modalPhotosOuter = document.createElement("div");
     modalPhotosOuter.classList.add("col-sm-7");
 
+    const paperText = !data.githubLink || data.githubLink === ""
+        ? ''
+        : `<a class="btn btn-fill" href="${data.githubLink}">GitHub Link</a>` ;
+    
+    const liveDemo = !data.liveDemo || data.liveDemo === ""
+        ? ''
+        : `<a class="btn btn-fill" href="${data.liveDemo}">Live Demo</a>` ;
+
     modalDescription.innerHTML = `
         <h2>${data.title}</h2>
         <p>${data.moreInfo.description}</p>
@@ -223,7 +231,9 @@ const createPortfolioModal = (data, id) => {
                 ${data.moreInfo.skills.map(skill => `<li><span>${skill}</span></li>`).join('')}
             </ul>
         </div>
-        <a href="${data.liveDemo}" class="btn btn-fill">Live Demo</a>
+        
+        ${liveDemo} &nbsp;
+        ${paperText}
     `;
 
     const modalPhotos = document.createElement("div");
